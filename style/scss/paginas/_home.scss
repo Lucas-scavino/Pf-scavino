@@ -1,0 +1,79 @@
+body {
+  font-family: "Roboto Slab", serif;
+  background-image: url(https://fondosmil.com/fondo/3874.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  maid a {
+    text-decoration: none;
+  }
+}
+
+#presupuesto {
+  text-align: center;
+  color: $color-letra;
+  background-color: $color-cart;
+  margin: 150px 15px;
+  border-radius: 20px;
+  img {
+    border-radius: 20%;
+    width: 45%;
+    height: auto;
+    margin: 10px 10px;
+  }
+}
+
+// productos css
+
+.contenedor {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  padding: 20px;
+  .portones {
+    background-color: #545b5c;
+    color: #aea885;
+    margin: 30px 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 10);
+    transition: all 400ms ease;
+  
+    img {
+      width: 100%;
+      height: 310px;
+    }
+    .contenido {
+      padding: 15px;
+      text-align: center;
+    }
+    h3 {
+      margin-bottom: 15px;
+    }
+    a {
+      text-decoration: none;
+      display: inline-block;
+      padding: 10px;
+      margin-top: 10px;
+      color: $color-fondo;
+      border: 2px solid $color-fondo;
+      background-color: $color-letra;
+      border-radius: 10px;
+      transition: all 400ms ease;
+    }
+    a:hover{
+      background: $color-fondo;
+      color:$color-letra;
+    }
+  }
+}
+.portones:hover {
+  transform: traslaterY(50%);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(212,199,199,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(212,199,199,0.75);
+box-shadow: 10px 10px 5px 0px rgba(212,199,199,0.75);
+
+}
+
+
